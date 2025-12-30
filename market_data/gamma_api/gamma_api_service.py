@@ -55,9 +55,7 @@ if __name__ == "__main__":
     print(f"found {len(dota_markets)} dota market")
     for dota_market in dota_markets:
         print(dota_market["question"])
-        list_token = dota_market["clobTokenIds"]
-        for token in list_token:
-            print(token)
+        
     
         
 
