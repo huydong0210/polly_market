@@ -47,6 +47,8 @@ class GammaAPIService:
                 print(f"Error getting active dota markets: {e}")
                 break
         return dota_markets
+    
+gamma_api_service = GammaAPIService()
 
 # Example usage
 if __name__ == "__main__":
